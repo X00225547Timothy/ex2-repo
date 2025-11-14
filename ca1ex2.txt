@@ -1,0 +1,22 @@
+git config --global user.name "Timothy Dige"
+git config global user.email "X00225547@mytudublin.ie"
+git config --global user.email "X00225547@mytudublin.ie"
+git config --global core.autocrlf false
+git init
+git status
+git branch -m master main
+git status
+git add .
+git commit -m "Adding files"
+git status
+git branch feature1-shop
+git checkout feature1-shop
+git add .
+git commit -m "Adding code to feature branch"
+git checkout main 
+git add .
+git commit -m "Adding code to the main branch"
+git merge feature1-shop
+git remote add origin https://github.com/X00225547Timothy/ex2-repo.git
+git push -u origin main
+git pull
