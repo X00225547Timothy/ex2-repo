@@ -1,0 +1,22 @@
+git init 
+git add .
+git commit -m "adding all files"
+git branch feature1-shop
+git checkout feature1-shop
+git add .
+git commit -m "adding code to the feature branch"
+git checkout main
+git add .
+git commit -m "adding code to the main branch"
+git merge feature1-shop
+git checkout feature1-shop
+git commit -m "adding code to feature"
+git add .
+git commit -m "adding code to feature"
+git add .
+git commit -m "adding code to feature"
+git checkout main
+git merge feature1-shop
+git remote add origin https://github.com/X00225547Timothy/ex2-repo.git
+git push -u origin main
+git pull
