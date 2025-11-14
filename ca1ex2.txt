@@ -20,3 +20,4 @@ git merge feature1-shop
 git remote add origin https://github.com/X00225547Timothy/ex2-repo.git
 git push -u origin main
 git pull
+https://github.com/X00225547Timothy/ex2-repo.git
